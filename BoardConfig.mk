@@ -28,5 +28,20 @@ endif
 BOARD_SUPER_PARTITION_SIZE := 8011120640
 BOARD_GOOGLE_DYNAMIC_PARTITIONS_SIZE := $(BOARD_SUPER_PARTITION_SIZE)
 
+#SHRP Configs
+SHRP_DEVICE_CODE := m31s
+SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := RufusIR
+SHRP_DEVICE_TYPE := A/B
+SHRP_REC := /dev/block/by-name/recovery
+SHRP_OTG := /usb_otg
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DARK := true
+SHRP_REC_TYPE := Normal
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
+
 # Inherit from universal9611-common tree
 -include device/samsung/universal9611-common/BoardConfigCommon.mk
