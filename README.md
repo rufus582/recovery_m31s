@@ -6,6 +6,6 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch twrp_m31s-eng
-mka recoveryimage
+lunch omni_m31s-eng
+make recoveryimage
 ```
