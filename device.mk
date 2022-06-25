@@ -11,3 +11,9 @@ PRODUCT_PACKAGES += \
 
 # Lpdump
 TW_EXCLUDE_LPDUMP := true
+
+# Apex Libraries
+PRODUCT_HOST_PACKAGES += \
+    libandroidicu
+
+TW_EXCLUDE_APEX := true
