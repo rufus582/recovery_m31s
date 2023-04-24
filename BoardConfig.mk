@@ -105,3 +105,17 @@ TARGET_USES_LOGD := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+#SHRP Configs
+SHRP_DEVICE_CODE := m31s
+SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := RufusIR
+SHRP_DEVICE_TYPE := A/B
+SHRP_REC := /dev/block/by-name/recovery
+SHRP_OTG := /usb_otg
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DARK := true
+SHRP_REC_TYPE := Normal
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
