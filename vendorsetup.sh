@@ -52,7 +52,7 @@ export_build_vars(){
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	export OF_USE_SYSTEM_FINGERPRINT=1
 	export OF_USE_TWRP_SAR_DETECT=1
-	export OF_QUICK_BACKUP_LIST="/super;/data;/boot;/vbmeta;/vbmeta_samsung;/dtbo;/efs;/sec_efs;/modem"
+	export OF_QUICK_BACKUP_LIST="/super;/data;/efs;/sec_efs"
 	export FOX_ENABLE_APP_MANAGER=0
 	export OF_STATUS_INDENT_LEFT="48"
 	export OF_STATUS_INDENT_RIGHT="48"
